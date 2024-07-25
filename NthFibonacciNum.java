@@ -23,8 +23,8 @@ public class NthFibonacciNum {
                     if (lengthOfString > 1) {
                         ansTensPlace = Character.getNumericValue(N.charAt(lengthOfString - 2));
                     }
-                }
-                if (ansTensPlace != 1 && ansOnesPlace != 1) {
+                }0
+                if (ansTensPlace != 1 && ansOnesPlace != 1) { // the output will be more detaile (i.e the 25th number of ...)
                     switch (ansOnesPlace) {
                         case 1:
                             JOptionPane.showMessageDialog(null, "The 1st number of the fibonacci sequence is " + answer);
